@@ -10,9 +10,9 @@ import org.junit.runner.RunWith;
                 "html:target/cucumber-report.html",
                 "rerun:target/rerun.txt"},
         features = "src/test/resources/features",
-        glue = "com/demoblaze/step_definitions",
+        glue = "com/demoblaze/step_definations",
         dryRun = false,
-        tags = ""
+        tags = "@smoke"
 )
 public class CukesRunner {
 }
