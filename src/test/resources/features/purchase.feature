@@ -30,7 +30,7 @@ Feature: Adidas Order Placement Functionalities
       | 2017 Dell 15.6 Inch |
       | MacBook Pro         |
     Then Under "Monitors" category User should be to see the list of following products
-      | Apple monitor 2  |
+      | Apple monitor 24  |
       | ASUS Full HD     |
 
 
