@@ -1,7 +1,7 @@
 Feature:  parallel two functionality
 
-  Background:
-    Given User is on the home page
+#  Background:
+#    Given User is on the home page
   @parallel
   Scenario Outline: User checks different laptops can be added to cart <differentLaptops>
     Then User adds "<differentLaptops>" from "Laptops"

@@ -1,8 +1,8 @@
 Feature: Adidas Order Placement Functionalities
   Agile Story: As a user, I should be able to place order from Website so that I can shop online
 
-  Background:
-    Given User is on the home page
+#  Background:
+#    Given User is on the home page
 
   @parallel
   Scenario: Placing a successful order
