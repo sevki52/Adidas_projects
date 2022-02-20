@@ -29,7 +29,7 @@ public class ProductPage extends BasePage{
 
     public void addToCart(){
         addToCartElement.click();
-        // BrowserUtils.sleep(2);
+        BrowserUtils.sleep(2);
         WebDriverWait wait = new WebDriverWait(Driver.get(),10);
         wait.until(ExpectedConditions.alertIsPresent());
 

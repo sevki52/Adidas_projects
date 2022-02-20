@@ -3,7 +3,7 @@ Feature: Paralel one function
 #  Background:
 #    Given User is on the home page
 
-  @parallel
+ @parallel
   Scenario: Verify all the products exist in the products pages
     Then Under "Phones" category User should be to see the list of following products
       | Samsung galaxy s6 |
